@@ -1,0 +1,263 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Zenith Computer Institute</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 60px 10;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      color: #7681ab;
+      background-color: #6babea;
+    }
+
+    header {
+      background-image:src="C:\Users\Hp\Downloads\c:\Users\Hp\Downloads\e7b4ce09c703210ab8f75b017c7eaf0951c5a95b737ee8120602845c1c1d944b.jpg";
+      background-size: cover;
+      background-position: center;
+      color: rgb(108, 113, 214);
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    }
+
+    header p {
+      font-size: 1.2em;
+      background-color: rgba(0, 0, 0, 0.4);
+      display: inline-block;
+      padding: 5px 15px;
+      border-radius: 8px;
+    }
+
+    main {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .section {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #004080;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    ul li {
+      flex: 1 1 200px;
+      background: #e9f0fb;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    ul li img {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 10px;
+    }
+
+    label, input {
+      display: block;
+      margin-top: 10px;
+    }
+    #about p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+#extra ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+#extra ul li {
+  background: #e0ecff;
+  margin: 8px 0;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 1em;
+}
+
+
+    input {
+      padding: 10px;
+      width: 100%;
+      max-width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+
+    button {
+      margin-top: 15px;
+      padding: 12px 25px;
+      background-color: #004080;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+    .total {
+      font-weight: bold;
+      margin-top: 15px;
+      color: #008000;
+      font-size: 1.2em;
+    }
+
+    footer {
+      background-color: #00264d;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    .contact-info p {
+      margin: 5px 0;
+    }
+
+    @media (max-width: 768px) {
+      ul {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Zenith Computer Institute</h1>
+    <p>Empowering students through technology – Anu Sharma</p>
+  </header>
+
+  <main>
+    <div class="section">
+      <h2>Courses Offered</h2>
+      <ul>
+        <li>
+          <img src="https://img.icons8.com/clouds/100/keyboard.png" alt="Typing Icon"/>
+          Typing (Hindi & English)
+        </li>
+        <li>
+          <img src="C:\Users\Hp\Downloads\OIP.jpg" alt="Basic Computer"/>
+          Basic Computer Education
+        </li>
+        <li>
+          <img src="https://img.icons8.com/clouds/100/accounting.png" alt="Accounting"/>
+          Business Accounting
+        </li>
+        <li>
+          <img src="https://img.icons8.com/clouds/100/source-code.png" alt="Coding"/>
+          Coding (HTML, CSS, JS)
+        </li>
+      </ul>
+    </div>
+    <div class="section" id="about">
+        <h2>About Zenith Computer Institute</h2>
+        <p>
+          Zenith Computer Institute, founded by <strong>Anu Sharma</strong>, is dedicated to empowering students with the latest digital skills and knowledge.
+          Our mission is to make every student tech-savvy and confident in the digital world. We offer a wide range of courses including Typing (Hindi & English), Basic Computer Education, Business Accounting, and Web Development.
+        </p>
+        <p>
+          Our classrooms are equipped with modern technology, and our instructors are trained to provide practical, hands-on experience. We focus on both conceptual clarity and industry-relevant skills.
+          Whether you are a beginner or looking to upskill, Zenith is the place to start your journey into the digital era.
+        </p>
+      </div>
+      
+      <div class="section" id="extra">
+        <h2>Extra-Curricular Activities</h2>
+        <ul>
+          <li>💡 New year celebration....</li>
+          <li>🧠 Picnic tour every year.</li>
+          <li>💼 Career Counseling Sessions</li>
+          <li>🎨 Poster Making & IT-Themed Art Contests</li>
+          <li>📢 Soft Skills & Presentation Workshops</li>
+        </ul>
+      </div>
+      
+
+    <div class="section contact-info">
+      <h2>Contact Details</h2>
+      <p><strong>Phone:</strong> +91-9876543210</p>
+      <p><strong>Email:</strong> zenithinstitute@email.com</p>
+      <p><strong>Address:</strong> Near Canal, Kootah Morh, Hiranagar</p>
+    </div>
+    <div class="section">
+        <h2>Our Gallery</h2>
+        <div class="gallery">
+          <img src="https://images.unsplash.com/photo-1584697964403-11e5bb9363fc?auto=format&fit=crop&w=400&q=80" alt="Students at Work">
+          <img src="https://images.unsplash.com/photo-1596495577886-d920f1fb7238?auto=format&fit=crop&w=400&q=80" alt="Computer Lab">
+          <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=400&q=80" alt="Training Session">
+          <img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=400&q=80" alt="Typing Practice">
+          <img src="https://images.unsplash.com/photo-1581091012184-5c7696f4e8d7?auto=format&fit=crop&w=400&q=80" alt="Classroom View">
+          <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80" alt="Coding Workshop">
+        </div>
+      </div>
+   
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Zenith Computer Institute | Designed with ❤️ by Jugal kishor</p>
+  </footer>
+
+  <script>
+    function calculateFee() {
+      const admission = parseFloat(document.getElementById('admission').value) || 0;
+      const monthly = parseFloat(document.getElementById('monthly').value) || 0;
+      const months = parseInt(document.getElementById('months').value) || 0;
+      const total = admission + (monthly * months);
+      document.getElementById('totalFee').innerText = "Total Fee: ₹" + total.toFixed(2);
+    }
+  </script>
+
+</body>
+</html>
